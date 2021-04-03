@@ -28,8 +28,7 @@ def main():
         2. Select a dataset to get started
         3. Click "📊 Visualize Dataset" to analyze the dataset
         4. Click ":rocket: Build Models" to start comparision among different models
-        5. Select a model for hyperparameter tuning and click ":rocket: Tune Model"
-        6. Find the best model & do your magic! :sparkles:
+        5. Find the best model & do your magic! :sparkles:
         
         ---
         """)
