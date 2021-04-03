@@ -22,7 +22,7 @@ def main():
 
     instructions = st.markdown("""
 
-        Jumpstart to find the best class of algorithm for your data:
+        Jumpstart to find the best classification algorithm for your data:
 
         >   1. 👈 Select **Run the app** from the sidebar *(click on **>** if closed)* 
         2. Select a dataset to get started
