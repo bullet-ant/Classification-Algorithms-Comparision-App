@@ -25,8 +25,7 @@ from sklearn.metrics import (
     roc_auc_score,
     f1_score,
     precision_score,
-    precision_recall_fscore_support,
-    confusion_matrix
+    recall_score
 )
 import warnings
 
@@ -155,7 +154,7 @@ class BatchClassifier:
         B_Accuracy = []
         ROC_AUC = []
         F1 = []
-        Precison = []
+        Precision = []
         Recall = []
         names = []
         TIME = []
@@ -220,8 +219,12 @@ class BatchClassifier:
                 y_pred = pipe.predict(X_test)
                 accuracy = accuracy_score(y_test, y_pred, normalize=True)
                 b_accuracy = balanced_accuracy_score(y_test, y_pred)
-                precision, recall, f1, true_sum = precision_recall_fscore_support(
-                    y_test, y_pred, average='weighted')
+                precision = precision_score(y_test, y_pred, average='weighted')
+                recall = recall_score(y_test, y_pred, average='weighted')
+                f1 = f1_score(y_test, y_pred, average='weighted')
+
+                # precision, recall, f1, true_sum = precision_recall_fscore_support(
+                #     y_test, y_pred, average='weighted')
                 try:
                     roc_auc = roc_auc_score(y_test, y_pred)
                 except Exception as exception:
@@ -234,7 +237,7 @@ class BatchClassifier:
                 B_Accuracy.append(b_accuracy)
                 ROC_AUC.append(roc_auc)
                 F1.append(f1)
-                Precison.append(precision)
+                Precision.append(precision)
                 Recall.append(recall)
                 TIME.append(time.time() - start)
                 if self.custom_metric is not None:
@@ -281,8 +284,8 @@ class BatchClassifier:
                     "Accuracy": Accuracy,
                     "Balanced Accuracy": B_Accuracy,
                     "ROC AUC": ROC_AUC,
-                    "Precision": precision,
-                    "Recall": recall,
+                    "Precision": Precision,
+                    "Recall": Recall,
                     "F1 Score": F1,
                     "Time Taken": TIME,
                 }
@@ -294,8 +297,8 @@ class BatchClassifier:
                     "Accuracy": Accuracy,
                     "Balanced Accuracy": B_Accuracy,
                     "ROC AUC": ROC_AUC,
-                    "Precision": precision,
-                    "Recall": recall,
+                    "Precision": Precision,
+                    "Recall": Recall,
                     "F1 Score": F1,
                     self.custom_metric.__name__: CUSTOM_METRIC,
                     "Time Taken": TIME,
@@ -307,6 +310,7 @@ class BatchClassifier:
 
         if self.predictions:
             predictions_df = pd.DataFrame.from_dict(predictions)
+        print(scores)
         return scores, predictions_df if self.predictions is True else scores
 
     def provide_models(self, X_train, X_test, y_train, y_test):
