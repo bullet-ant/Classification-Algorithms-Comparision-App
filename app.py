@@ -56,10 +56,10 @@ def main():
 def run_the_app():
 
     # Sidebar container below the Navigation Selectbox
-    sidebar = st.sidebar.beta_container()
+    sidebar = st.sidebar.container()
 
     # Main Panel section below Heading
-    main_panel = st.beta_container()
+    main_panel = st.container()
 
     ############################
     # Button 1
@@ -79,10 +79,10 @@ def run_the_app():
     visualizer_button = sidebar.empty()
 
     # Sidebar container to show parameters selection options
-    parameters_sidebar = st.sidebar.beta_container()
+    parameters_sidebar = st.sidebar.container()
 
     # Sidebar button to fire "Model Building Process"
-    model_sidebar = st.sidebar.beta_container()
+    model_sidebar = st.sidebar.container()
     model_runner = st.sidebar.empty()
 
     if dataset_selector == 'Click here...' and uploaded_dataset is None:  # i.e. No dataset is selected
@@ -204,7 +204,7 @@ def run_the_app():
 # Visualizer for Dataset
 
 def visualizer(df, dataset_selector):
-    visualize = st.beta_container()
+    visualize = st.container()
     with visualize:
         visualize.markdown(
             f"### **1. Dataset: {dataset_selector}** \n #### 1.1. Glimplse of dataset \n")
