@@ -7,19 +7,19 @@ import matplotlib.pyplot as plt
 def get_dataset(data):
 
     if data == 'Diabetes.csv':
-        dataset = 'https://raw.githubusercontent.com/bullet-ant/algorithmComparisionApp/main/Datasets/diabetes.csv'
+        dataset = 'https://raw.githubusercontent.com/bullet-ant/Classification-Algorithms-Comparision-App/main/datasets/diabetes.csv'
     elif data == 'Breast-Cancer.csv':
-        dataset = 'https://raw.githubusercontent.com/bullet-ant/algorithmComparisionApp/main/Datasets/breast-cancer.csv'
+        dataset = 'https://raw.githubusercontent.com/bullet-ant/Classification-Algorithms-Comparision-App/main/datasets/breast-cancer.csv'
     elif data == 'Glass.csv':
-        dataset = 'https://raw.githubusercontent.com/bullet-ant/algorithmComparisionApp/main/Datasets/glass_csv.csv'
+        dataset = 'https://raw.githubusercontent.com/bullet-ant/Classification-Algorithms-Comparision-App/main/datasets/glass_csv.csv'
     elif data == 'Waveform.csv':
-        dataset = 'https://raw.githubusercontent.com/bullet-ant/algorithmComparisionApp/main/Datasets/waveform.csv'
+        dataset = 'https://raw.githubusercontent.com/bullet-ant/Classification-Algorithms-Comparision-App/main/datasets/waveform.csv'
     elif data == 'Image.csv':
-        dataset = 'https://raw.githubusercontent.com/bullet-ant/algorithmComparisionApp/main/Datasets/image.csv'
+        dataset = 'https://raw.githubusercontent.com/bullet-ant/Classification-Algorithms-Comparision-App/main/datasets/image.csv'
     elif data == 'Heart.csv':
-        dataset = 'https://raw.githubusercontent.com/bullet-ant/algorithmComparisionApp/main/Datasets/heart.csv'
+        dataset = 'https://raw.githubusercontent.com/bullet-ant/Classification-Algorithms-Comparision-App/main/datasets/heart.csv'
     elif data == 'Segment.csv':
-        dataset = 'https://raw.githubusercontent.com/bullet-ant/algorithmComparisionApp/main/Datasets/segment_csv.csv'
+        dataset = 'https://raw.githubusercontent.com/bullet-ant/Classification-Algorithms-Comparision-App/main/datasets/segment_csv.csv'
     else:
         dataset = None
     return dataset
