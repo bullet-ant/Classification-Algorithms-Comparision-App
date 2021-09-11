@@ -10,23 +10,24 @@ Whenever we're trying to create a machine learning model for a classification/re
   </p>
 </p>
 
-# Demo
-
-Launch the web app:
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/bullet-ant/classification-algorithms-comparision/main/app.py)
-
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
+    <li><a href="#demo">Demo</a></li>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributors">Contributors</a></li>
   </ol>
 </details>
+
+<!--DEMO-->
+## Demo
+
+Launch the web app:
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/bullet-ant/classification-algorithms-comparision/main/app.py)
 
 
 
