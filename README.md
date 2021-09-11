@@ -62,7 +62,7 @@ In this project we're using:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Go to the [app](https://share.streamlit.io/bullet-ant/comparision-of-classification-algorithms/main/app.py){:target="_blank"}
+1. Go to the [app](https://share.streamlit.io/bullet-ant/comparision-of-classification-algorithms/main/app.py)
 
 ![Landing page](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/landing_page.png?raw=true)
 
