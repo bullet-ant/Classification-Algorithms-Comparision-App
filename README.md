@@ -62,17 +62,21 @@ In this project we're using:
 ## Usage
 
 1. Go to the [app](https://share.streamlit.io/bullet-ant/comparision-of-classification-algorithms/main/app.py)
+
 ![Landing page](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/landing_page.png?raw=true)
 
 2. Select **Run the app** from the sidebar (click on > if closed)
 
 3. Select a dataset to get started
+
 ![Dataset selection](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/select_dataset.png?raw=true)
 
 4. Click "📊 Visualize Dataset" to analyze the dataset
+
 ![Visualize dataset](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/visualize_dataset.png?raw=true)
 
 5. Click "🚀 Build Models" to start comparision among different models
+
 ![Build models](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/build_models.png?raw=true)
 
 6. Find the best model & do your magic! ✨
