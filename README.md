@@ -10,6 +10,11 @@ Whenever we're trying to create a machine learning model for a classification/re
   </p>
 </p>
 
+# Demo
+
+Launch the web app:
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/bullet-ant/classification-algorithms-comparision/main/app.py)
 
 
 <!-- TABLE OF CONTENTS -->
