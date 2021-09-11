@@ -16,12 +16,8 @@ Whenever we're trying to create a machine learning model for a classification/re
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#built-with">Built With</a></li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributors">Contributors</a></li>
   </ol>
@@ -32,14 +28,11 @@ Whenever we're trying to create a machine learning model for a classification/re
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Landing page](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/landing_page.png?raw=true)
-
 On the basis of a training set of data containing observations whose category membership is known, our problem is to identify to which set of categories(sub-population) a new observation belongs.
 
 > The statement of the problem is explicitly declared as:
 > For a new pattern x ε R<sup>D</sup> not in D, determine the response y given dataset D.
-
-(Diagram)
+[!Flow Chart](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/Graphic%20Organiser%20Flowchart.png?raw=true)
 
 In this project we're using: 
 - Dataset:
