@@ -1,0 +1,7 @@
+breast-cancer.csv
+diabetes.csv
+glass_csv.csv
+heart.csv
+image.csv
+segment_csv.csv
+waveform.csv
