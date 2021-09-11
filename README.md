@@ -27,7 +27,7 @@ Whenever we're trying to create a machine learning model for a classification/re
 
 Launch the web app:
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/bullet-ant/classification-algorithms-comparision/main/app.py)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/bullet-ant/classification-algorithms-comparision-app/main/app.py)
 
 
 
@@ -62,7 +62,7 @@ In this project we're using:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Go to the [app](https://share.streamlit.io/bullet-ant/comparision-of-classification-algorithms/main/app.py)
+1. Go to the [app](https://share.streamlit.io/bullet-ant/classification-algorithms-comparision-app/main/app.py)
 
 ![Landing page](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/landing_page.png?raw=true)
 
