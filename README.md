@@ -32,6 +32,8 @@ On the basis of a training set of data containing observations whose category me
 
 > The statement of the problem is explicitly declared as:
 > For a new pattern x ε R<sup>D</sup> not in D, determine the response y given dataset D.
+
+
 [!Flow Chart](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/Graphic%20Organiser%20Flowchart.png?raw=true)
 
 In this project we're using: 
