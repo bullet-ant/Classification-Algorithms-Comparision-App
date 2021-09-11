@@ -32,7 +32,7 @@ Whenever we're trying to create a machine learning model for a classification/re
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Landing page][landing-page]](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/landing_page.png)
+![Landing page](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/landing_page.png?raw=true)
 
 On the basis of a training set of data containing observations whose category membership is known, our problem is to identify to which set of categories(sub-population) a new observation belongs.
 
@@ -62,18 +62,18 @@ In this project we're using:
 ## Usage
 
 1. Go to the [app](https://share.streamlit.io/bullet-ant/comparision-of-classification-algorithms/main/app.py)
-[![Landing page][landing-page]](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/landing_page.png)
+![Landing page](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/landing_page.png?raw=true)
 
 2. Select **Run the app** from the sidebar (click on > if closed)
 
 3. Select a dataset to get started
-[![Dataset selection][dataset-selection]](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/select_dataset.png)
+![Dataset selection](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/select_dataset.png?raw=true)
 
 4. Click "📊 Visualize Dataset" to analyze the dataset
-[![Visualize dataset][visusalize-dataset]](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/visualize_dataset.png)
+![Visualize dataset](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/visualize_dataset.png?raw=true)
 
 5. Click "🚀 Build Models" to start comparision among different models
-[![Build models][build-models]](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/build_models.png)
+![Build models](https://github.com/bullet-ant/Classification-Algorithms-Comparision/blob/main/images/build_models.png?raw=true)
 
 6. Find the best model & do your magic! ✨
 
